@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gemliu.github.io</id>
     <title>GEMLIU</title>
-    <updated>2020-11-05T08:08:17.043Z</updated>
+    <updated>2020-11-08T16:08:00.990Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gemliu.github.io"/>
     <link rel="self" href="https://gemliu.github.io/atom.xml"/>
@@ -11,44 +11,72 @@
     <icon>https://gemliu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, GEMLIU</rights>
     <entry>
-        <title type="html"><![CDATA[About Population Ageing (EN)]]></title>
+        <title type="html"><![CDATA[Argumentation Writing (EN)]]></title>
+        <id>https://gemliu.github.io/opinion-essay-en/</id>
+        <link href="https://gemliu.github.io/opinion-essay-en/">
+        </link>
+        <updated>2020-11-06T09:10:46.000Z</updated>
+        <content type="html"><![CDATA[<p><em>From blog.virtualwritingtutor.com</em></p>
+<p><strong>Opinion Essay</strong> (agree or disagree)</p>
+<p><strong>Para. 1. Introduction</strong><br>
+① <strong>Opening:</strong> a question, a statistic, a quote, an anecdote, or expert testimony;<br>
+② <strong>Context:</strong> importance of the topic. *&quot;undergoing a revolution, widely considered to be, a vital factor in, the leading cause of, is responsible for, set to become&quot; *;<br>
+③ <strong>Thesis:</strong> make a strong claim about a controbersial issue.</p>
+<p><strong>Para. 2-3 Supporting Arguments</strong><br>
+① <strong>Topic sentence:</strong><br>
+② <strong>Argue:</strong> refer to facts, statistics, logic, draw a conclusion;<br>
+③** Evidence: <strong><em>&quot;argues that, argued, discussed, referring to, according to, to quote from, tells us that, shows us that,  stated, wrote,  expressed the concern that, as written&quot;</em>;<br>
+④</strong> Support:**<em>&quot; to illustrate,  for instance,  to be exact, to explain, take the case of, for example, suppose that, that is, to put another way, to show what I mean&quot;</em></p>
+<p><strong>Para. 4. Conclusion</strong><br>
+① <strong>Reformulation of the thesis:</strong><br>
+② <strong>Build cohesion:</strong><em>&quot;To conclude, To sum up, In closing, or For these reasons&quot;</em>;<br>
+③** Recommendation: <strong><em>&quot; ought to, propose, should, recommend, suggest&quot;</em>;<br>
+④</strong> Prediction:**What will happen? <em>&quot;should, ought to, likely, will, going to&quot;</em>.</p>
+<p><strong>Argument Essay</strong> (discuss both views and give your own opinion)</p>
+<p><strong>Para. 1. Introduction</strong><br>
+① <strong>Opening:</strong> provocative, thought-provoking question;<br>
+② <strong>Context:</strong> importance of the topic. *&quot;undergoing a revolution, widely considered to be, a vital factor in, the leading cause of, is responsible for, set to become&quot; *;<br>
+③ <strong>Thesis:</strong> debatable.</p>
+<p><strong>Para. 2-3. First Supporting Argument</strong><br>
+① <strong>Topic sentence:</strong><br>
+② <strong>Argue:</strong> refer to facts, statistics, logic, draw a conclusion;<br>
+③** Evidence: **<em>&quot;argues that, argued, discussed, referring to, according to, to quote from, tells us that, shows us that,  stated, wrote,  expressed the concern that, as written&quot;</em>;<br>
+④ <strong>Cite Sources: ** (XXX, 0000).<br>
+⑤</strong> Support:**<em>&quot; to illustrate,  for instance,  to be exact, to explain, take the case of, for example, suppose that, that is, to put another way, to show what I mean&quot;</em></p>
+<p>**Para. 4. Counterargument **<br>
+① <strong>Topic sentence:</strong><br>
+② **Concede:**admittedly, concede that, one cannot deny that, granted, indeed, naturally, it is true that, while it is true that,  to be sure&quot;<em>;<br>
+③ <strong>Refute:</strong></em>&quot;nonetheless, there is countervailing evidence, nevertheless, regardless, in contrast, by contrast, whereas, although, despite, that said, and yet, however&quot;*.</p>
+<p><strong>Para. 5. Conclusion</strong><br>
+① <strong>Reformulation of the thesis:</strong><br>
+② <strong>Build cohesion:</strong><em>&quot;To conclude, To sum up, In closing, or For these reasons&quot;</em>;<br>
+③** Recommendation: <strong><em>&quot; ought to, propose, should, recommend, suggest&quot;</em>;<br>
+④</strong> Prediction:**What will happen? <em>&quot;should, ought to, likely, will, going to&quot;</em>.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Distance Learning (EN)]]></title>
+        <id>https://gemliu.github.io/distance-learning/</id>
+        <link href="https://gemliu.github.io/distance-learning/">
+        </link>
+        <updated>2020-11-05T12:46:40.000Z</updated>
+        <content type="html"><![CDATA[<p>Because of the COVID-19 pandemic, education is undergoing a dramatic revolution. Whereby digital platforms, the conspicuous rise of E-learning has been widely considered to be an innovative attempt to facilitate traditional education during the special period. Without a doubt, a vital factor in the prevalence of E-learning is that it breaks through the restriction of time and space. However, I would argue that this new form of education can not achieve similar learning outcomes as attending courses in person. In my opinion, students will suffer from the inefficient learning process and have trouble in seeking opportunities to apply their knowledge.</p>
+<p>Firstly, distance education can never work as efficiently as traditional education does in terms of knowledge absorption. In fact, even though the students can click the pause button and replay the video to deepen their understanding of the content of each lecture, they still have difficulty in digesting information. On the one hand, according to an American psychologist, Thorndike, he stated that the fundamental of learning is to exercise the connections between a stimulating situation and a response. Therefore, without interactions with teachers and fellow students, it is difficult for students to draw inspiration from casual conversations with others concerning learning methods. Besides, it is also difficult for teachers to know about their students' learning state and give a helpful suggestion accordingly. On the other hand, plagued by the deficiency of E-learning, caused by the instability of its applications or the restriction of Internet connection, most students and teachers didn't satisfy with the online education experience. For instance, in my experience, I can hardly get clear feedback promptly from my teachers on the Internet. On the contrary, it is convenient for me to communicate with my supervisors at the university, which helps me check my understanding of the topics and expand my knowledge.</p>
+<p>Secondly, distance education can never provide enough opportunities for students to apply their knowledge as traditional education can do. There is no question that the environment can shape us unconsciously. According to Pavlov's dogs study, we can conclude that accumulating background knowledge is very important. For example, a dense academic atmosphere and sufficient resources can improve students' comprehension ability and academic performance. To illustrate, equipped with advanced academic facilities and equipment and collaborated with several state-owned institutions and famous enterprises, traditional education can provide students a plethora of practice opportunities so that students can use their knowledge to accomplish more achievements such as patents and papers. Another case in point, they can also learn the art of dealing with real-life problems and broaden their horizon from their predecessors and colleagues. In contrast, students can only learn theories but hardly gain soft skills through distance learning.</p>
+<p>In summary, E-learning can not achieve the same outcome as traditional education does in terms of absorbing, sharing, and using knowledge, although it is commodious and flexible. We should not pursue the new trend blindly, regardless of considering the essence of the study. From my point of view, with the development of science and technology, distance education is likely to be as efficient as traditional education in the future.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Population Aging (EN)]]></title>
         <id>https://gemliu.github.io/about-population-ageing/</id>
         <link href="https://gemliu.github.io/about-population-ageing/">
         </link>
         <updated>2020-11-03T14:09:32.000Z</updated>
         <content type="html"><![CDATA[<p>Currently, demographic change is poised to become one of the most significant global issues. Since the trajectory we are on is reliant on the fast development of science and technology, the better public health care system has made a lot of contributions to the improvement of life expectancy. However, declining fertility and increasing longevity have led to an unprecedented pace of population aging. Personally speaking, for society, I think problems of demographic change far outweigh its positive impact.</p>
-<p>Firstly, considering the elderly are prone to have health problems, the government has to increase expenditure on medical services to treat age-related conditions, cut the budget in other essential services, and tax more to make ends meet. Therefore, from the perspective of economic fairness, it will hurt other tax-payers' rights to enjoy better infrastructure facilities, educational resources, and career opportunities. What's worst, the rising tax burden and stressful life will affect people's livelihood and their working enthusiasm, which will catalyze threats to long-term economic growth in society.</p>
-<p>Secondly, since the government has raised the pension eligibility age to keep the pension scheme running, senior citizens are likely to stay in the workforce even in their 60s. On the one hand, struggling with cognitive decline and other conditions, these elderly workers' ability to process information and handle works is limited. On the other hand, it will be difficult for the young generation to find job vacancies or get promoted. Therefore, from the perspective of economic efficiency, the postponement of retirement will exacerbate the unequal resource distribution and shrink the productivity and profitability of the whole society.</p>
-<p>However, even if the increasing proportion of older people do seem to invoke some economic problems,  some pros can still be under consideration from an opposite angle. The main benefit of these old workers is that they possess a plethora of practical experience, specialist knowledge, and work-related tips, which is an invisible asset of the whole society. By tapping into these predecessors' wisdom, young staffs can minimize the risk of making mistakes and master working norms more efficiently. For instance, senior business managers will impart client management skills for dealing with complaints and queries to their juniors. Likewise, the veteran scientists will pass on some methodology of overseeing and executing researches or projects.</p>
-<p>In conclusion, a rapidly-aging population negatively affects economic fairness and efficiency. These social issues are difficult to tackle, although these experienced people can yield benefits to society by transferring their explicit Knowledge and tacit Knowledge.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Karrierefrauen und Hausfrauen (DE)]]></title>
-        <id>https://gemliu.github.io/karrierefrauen-und-hausfrauen/</id>
-        <link href="https://gemliu.github.io/karrierefrauen-und-hausfrauen/">
-        </link>
-        <updated>2019-05-12T14:51:49.000Z</updated>
-        <content type="html"><![CDATA[<p>Ist für mich eine ideale Lebensweise, im Gleichgewicht zwischen dem Leben und der Familie zu sein.</p>
-<p>Karrierefrauen erzielen ihre Karriere und ernten Geld und Ansehen, was auf Kosten iherer Jugend geht. Sie sind oft am Tag stark und charmant. Aber sie fühlen sich einsam, nachdem sie nach Hause gegangen sind und sich in der Nacht abgeschminkt haben.</p>
-<p>Im Vergleich zu Karrierefrauen sind die Hausfrauen sich jeden Tag beschäftig mit Reis und Speiseöl und müssen sogar jede Mark dreimal umdrehen. Sie widmen die jugendliche Schönheit ihren engsten Angehörigen und bringen ihre Probleme zu sich selbst. Sie tragen Sorge jederzeit dafür, ob ihre Kinder gut essen können und ernsthaft lernen. Weil sie kein Einkommen haben, können sie ihren Ehemännern nicht die Schuld dafür geben, dass sie wegen der anstrengenden Arbeit ihre Familien vernachlässigen.</p>
-<p>Ich meine, dass es altmodisch ist, dass Ehemänner nur Verantwortung für die Sache außer der Familie tragen, und Ehefrauen nur für die innerhalb der Familie. Besser ist es, dass Ehemänner und Ehefrauen miteinander dafür kooperieren und vernünftig die Zeit benutzen. Meiner Meinung nach ist die Familie das Wichtigste. Die Wirtschaft ist das Fundament der Ehe und Ehemann und Ehefrau sollten hart arbeiten. Wenn sie zu Hause sind, sollen sie wissen, die Zeit zu schätzen und begleiten ihre Partner und Kinder geduldig.</p>
-<p>Ich hoffe, dass ich in Zukunft meine eigene Karriere machen werde und eine verantwortungsvolle Mutter werde.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Innovation and Entrepreneurship (CN)]]></title>
-        <id>https://gemliu.github.io/guan-yu-chuang-xin-chuang-ye/</id>
-        <link href="https://gemliu.github.io/guan-yu-chuang-xin-chuang-ye/">
-        </link>
-        <updated>2018-12-11T15:14:56.000Z</updated>
-        <content type="html"><![CDATA[<p><em>摘选自2018年校事迹报告会演讲稿</em></p>
-<p>从全球的范围看，现在的我们正处在一个由“3C”构成的世界中，change，变化是当今世界最显著的一个特征，compete，竞争渗透到社会生活的每一个角落，customer顾客则在经济中起着主导作用。在变化迅速，竞争激烈，对美好生活的需求日益增长的世界中，创新显得尤为重要。</p>
-<p>而所谓的创新创业，不可能一蹴而就。有一个好的想法只能是创意，将想法付诸实践产生作品是创造，将作品转化成产品产生了经济效益才能叫做创新，而当你把创新成果真正转化为生产力时，才能叫做创业。（Creativity Innovation Entrepreneurship）</p>
-<p>创意的来源有两个：一是科研成果，二是市场需求，二者目的皆是为了创造解决某个用户痛点或者某个行业的痛点的作品。</p>
-<p>我认为创新创业最重要的就是资源意识，创新，不是无中生有，而是有生万物，懂得并且擅于运用现有资源创造新资源。规格严格功夫到家（母校校训），造就的是一代代的人才辈出，以及待转化的科研硕果。科研是将金钱转化为知识的过程，而创新则是将知识转换为金钱的过程。</p>
-<p>对于创业，我个人认为在大学，尤其是本科阶段，谈创业是不切实际的，大多数人在本科阶段能争取的资源一定是不充分甚至是匮乏的，一个没有经济基础甚至连就业能力都不具备的人如何创业？如何在创业后肩负起带动就业的责任？怀揣满心的抱负和理想，在时代的浪潮中呼喊：我要创业。这是空谈、误己误世误国。</p>
-<p>在我看来，在大学，我们创新的目的不是为了参加多少的比赛，获得多么辉煌的成果，而是自我培养，培养自我的创新意识、创新能力以及创新人格，提升自己的从业就业能力。切忌心浮气躁，急于求成，唯有潜龙勿用才能飞龙在天。</p>
+<p>Firstly, considering the elderly are prone to have health problems, the government has to increase expenditure on medical services to treat age-related conditions, cut the budget in other essential services, and tax more to make ends meet. Therefore, from the perspective of economic fairness, it will hurt other tax-payers' rights to enjoy better infrastructure facilities, educational resources, and career opportunities. What's worsE, the rising tax burden and stressful life will affect people's livelihood and their working enthusiasm, which will catalyze threats to long-term economic growth in society.</p>
+<p>Secondly, since the government has raised the pension eligibility age to keep the pension scheme running, senior citizens are likely to stay in the workforce even in their 60s. On the one hand, struggling with cognitive decline and other conditions, these elderly workers' ability to process information and handle work is limited. On the other hand, it will be difficult for the young generation to find job vacancies or get promoted. Therefore, from the perspective of economic efficiency, the postponement of retirement will exacerbate the unequal resource distribution and shrink the productivity and profitability of the whole society.</p>
+<p>However, even if the increasing proportion of older people do seem to invoke some economic problems,  some pros can still be under consideration from the opposite angle. The main benefit of these old workers is that they possess a plethora of practical experience, specialist knowledge, and work-related tips, which is an invisible asset to the whole society. By tapping into these predecessors' wisdom, young staff can minimize the risk of making mistakes and master working norms more efficiently. For instance, senior business managers will impart client management skills for dealing with complaints and queries to their juniors. Likewise, veteran scientists will pass on some methodology of overseeing and executing research or projects.</p>
+<p>In conclusion, a rapidly aging population negatively affects economic fairness and efficiency. These social issues are difficult to tackle, although these experienced people can yield benefits to society by transferring their explicit knowledge and tacit knowledge.</p>
 ]]></content>
     </entry>
 </feed>
