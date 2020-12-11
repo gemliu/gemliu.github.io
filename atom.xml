@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gemliu.github.io</id>
     <title>GEMLIU</title>
-    <updated>2020-11-10T17:18:28.148Z</updated>
+    <updated>2020-12-11T15:12:43.248Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gemliu.github.io"/>
     <link rel="self" href="https://gemliu.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://gemliu.github.io/images/avatar.png</logo>
     <icon>https://gemliu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, GEMLIU</rights>
+    <entry>
+        <title type="html"><![CDATA[College Education and Success (EN)]]></title>
+        <id>https://gemliu.github.io/college-education-and-success-en/</id>
+        <link href="https://gemliu.github.io/college-education-and-success-en/">
+        </link>
+        <updated>2020-12-11T14:20:03.000Z</updated>
+        <content type="html"><![CDATA[<p>Nowadays, many people seem to have achieved career success without any experience in completing a university education. Therefore, it is believed that the knowledge gained in university is of little value to one's career achievement. Personally, I do not agree with the notion. Because learning professional knowledge is the most fundamental and efficient way to be successful.</p>
+<p>First and foremost, it is clear that by learning fundamental theories, people can get insight into the concepts and principles of their favorite subjects, which paves the way for their career success. It is because jobs today have become specialized and require specialty to find the most optimal solution after sorting out all alternatives. Consequently, with in-depth knowledge, people can solve complex problems and develop creative solutions efficiently. That is to say, with a professional background, people can gain a competitive edge over their peers.</p>
+<p>Admittedly, theoretical knowledge should not be overvalued. If students apply theories blindly, they will find tactics backfire. For instance, the application of teamwork, which is touted as an efficacious method in the business school, is likely to undermine a company's productivity if a team fails to reach a consensus promptly in dealing with emergencies. Namely, if theories are not used skillfully in varying contexts, people could make the wrong choices and face undesirable consequences.</p>
+<p>To sum up, theoretical knowledge is necessary, because it can improve people's problem-solving ability and creativity. Meanwhile, applying theories correctly will help people achieve wealth and fame.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Argumentation Writing (EN)]]></title>
         <id>https://gemliu.github.io/opinion-essay-en/</id>
@@ -64,19 +76,6 @@
 <p>Firstly, distance education can never work as efficiently as traditional education does in terms of knowledge absorption. In fact, even though the students can click the pause button and replay the video to deepen their understanding of the content of each lecture, they still have difficulty in digesting information. On the one hand, according to an American psychologist, Thorndike, he stated that the fundamental of learning is to exercise the connections between a stimulating situation and a response. Therefore, without interactions with teachers and fellow students, it is difficult for students to draw inspiration from casual conversations with others concerning learning methods. Besides, it is also difficult for teachers to know about their students' learning state and give a helpful suggestion accordingly. On the other hand, plagued by the deficiency of E-learning, caused by the instability of its applications or the restriction of Internet connection, most students and teachers didn't satisfy with the online education experience. For instance, in my experience, I can hardly get clear feedback promptly from my teachers on the Internet. On the contrary, it is convenient for me to communicate with my supervisors at the university, which helps me check my understanding of the topics and expand my knowledge.</p>
 <p>Secondly, distance education can never provide enough opportunities for students to apply their knowledge as traditional education can do. There is no question that the environment can shape us unconsciously. According to Pavlov's dogs study, we can conclude that accumulating background knowledge is very important. For example, a dense academic atmosphere and sufficient resources can improve students' comprehension ability and academic performance. To illustrate, equipped with advanced academic facilities and equipment and collaborated with several state-owned institutions and famous enterprises, traditional education can provide students a plethora of practice opportunities so that students can use their knowledge to accomplish more achievements such as patents and papers. Another case in point, they can also learn the art of dealing with real-life problems and broaden their horizon from their predecessors and colleagues. In contrast, students can only learn theories but hardly gain soft skills through distance learning.</p>
 <p>In summary, E-learning can not achieve the same outcome as traditional education does in terms of absorbing, sharing, and using knowledge, although it is commodious and flexible. We should not pursue the new trend blindly, regardless of considering the essence of the study. From my point of view, with the development of science and technology, distance education is likely to be as efficient as traditional education in the future.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Population Aging (EN)]]></title>
-        <id>https://gemliu.github.io/about-population-ageing/</id>
-        <link href="https://gemliu.github.io/about-population-ageing/">
-        </link>
-        <updated>2020-11-03T14:09:32.000Z</updated>
-        <content type="html"><![CDATA[<p>Currently, demographic change is poised to become one of the most significant global issues. Since the trajectory we are on is reliant on the fast development of science and technology, the better public health care system has made a lot of contributions to the improvement of life expectancy. However, declining fertility and increasing longevity have led to an unprecedented pace of population aging. Personally speaking, for society, I think problems of demographic change far outweigh its positive impact.</p>
-<p>Firstly, considering the elderly are prone to have health problems, the government has to increase expenditure on medical services to treat age-related conditions, cut the budget in other essential services, and tax more to make ends meet. Therefore, from the perspective of economic fairness, it will hurt other tax-payers' rights to enjoy better infrastructure facilities, educational resources, and career opportunities. What's worsE, the rising tax burden and stressful life will affect people's livelihood and their working enthusiasm, which will catalyze threats to long-term economic growth in society.</p>
-<p>Secondly, since the government has raised the pension eligibility age to keep the pension scheme running, senior citizens are likely to stay in the workforce even in their 60s. On the one hand, struggling with cognitive decline and other conditions, these elderly workers' ability to process information and handle work is limited. On the other hand, it will be difficult for the young generation to find job vacancies or get promoted. Therefore, from the perspective of economic efficiency, the postponement of retirement will exacerbate the unequal resource distribution and shrink the productivity and profitability of the whole society.</p>
-<p>However, even if the increasing proportion of older people do seem to invoke some economic problems,  some pros can still be under consideration from the opposite angle. The main benefit of these old workers is that they possess a plethora of practical experience, specialist knowledge, and work-related tips, which is an invisible asset to the whole society. By tapping into these predecessors' wisdom, young staff can minimize the risk of making mistakes and master working norms more efficiently. For instance, senior business managers will impart client management skills for dealing with complaints and queries to their juniors. Likewise, veteran scientists will pass on some methodology of overseeing and executing research or projects.</p>
-<p>In conclusion, a rapidly aging population negatively affects economic fairness and efficiency. These social issues are difficult to tackle, although these experienced people can yield benefits to society by transferring their explicit knowledge and tacit knowledge.</p>
 ]]></content>
     </entry>
 </feed>
