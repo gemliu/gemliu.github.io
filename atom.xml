@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://gemliu.github.io</id>
+    <title>GEMLIU</title>
+    <updated>2022-10-28T15:42:07.351Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://gemliu.github.io"/>
+    <link rel="self" href="https://gemliu.github.io/atom.xml"/>
+    <subtitle>GEMLIU</subtitle>
+    <logo>https://gemliu.github.io/images/avatar.png</logo>
+    <icon>https://gemliu.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, GEMLIU</rights>
+    <entry>
+        <title type="html"><![CDATA[【学习笔记】关于双重差分法（DID）应用于教育的一篇论文]]></title>
+        <id>https://gemliu.github.io/educational-tracking-cn/</id>
+        <link href="https://gemliu.github.io/educational-tracking-cn/">
+        </link>
+        <updated>2021-07-23T07:22:13.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>概述</strong><br>
+该篇论文采用DID模型，以评估不同时期不同国家的制度所带来的影响差异。通过比较实行tracked systems（以能力分轨）及non-tracked（不以能力分轨）systems的国家的小学及中学学生成绩表现的差异来确定分组制度的影响（tracking effects）。选取6项国际学生评估测试（Secondary-school: PISA Reading, TIMSS Math, TIMSS Science; Primary-school: PIRLS Reading, TIMSS Math, TIMSS Science），每项测试皆有18-26个国家参与，为方便对比分析，设计8对achievement contrasts。结果表明，早期分轨教育（Early Tracking）加剧了教育不平等，并具有降低学生平均成绩表现的趋势可能性。因此，早期分轨教育（Early Tracking）并没有体现任何公平与效率之间的权衡。</p>
+<p><strong>研究问题</strong><br>
+如果一个国家根据不同学校学生的成绩表现进行相同评价系统下的分轨操作，是否会影响教育结果的公平性和效率?</p>
+<p><strong>简介</strong><br>
+选择型教育系统（selective school: admission is restricted on the basis of selection criteria）：奥地利、德国、匈牙利、斯洛伐克共和国等，在学生10岁时就把他们送入differing-ability schools；综合型教育系统（comprehensive school: does not select its intake on the basis of academic achievement or aptitude）：加拿大、日本、挪威、瑞典、英国、美国等。</p>
+<p>学校的分轨教育政策School Placement Policies（AKA: tracking, streaming, or ability grouping）声称是基于公平和效率间的权衡。按能力分轨的学校：相同层次的学生可以安排重点课程辅以适当指导，学生们可以最大限度地进行学习。老师不必担心让学习速度最快的学生感到厌烦或让学习速度最慢的学生跟不上进度；未按能力分轨的学校：较低层次的学生将落后于较高层次的学生。但实际上能力分轨会导致对更多弱势学生的持续偏见。</p>
+<p>教学成果的水平和分布影响存在相当大的不确定性：异质性课堂heterogeneous classrooms可能会通过非线性的同伴效应nonlinear peer effects来提高效率：能力较高的学生不会遭受损失，但能力较低的学生可以通过互动获益。如果同伴的影响是线性的，对成就水平不会有任何明显的影响。如果与和自己能力水平相当的同伴相处得好，能力分轨可以提高表现水平，同时也可能减少不平等性</p>
+<p>教学成果水平和分布影响的两种实证分析策略：①侧重于研究学校内部的不同类型能力分轨情况，统计分析statistical analyses被测量的因素以标准化制度结构institutional structures的异质性heterogeneity；②侧重于研究国家内部不同类型学校的能力分轨情况，比较国家制度结构调整及优化前后的结果。实证分析得出分轨教育体系会导致教学成果的不平等（特别是从家庭背景角度来考虑）</p>
+<p>但是其他未测量的因素会造成研究偏差，诸如家庭住宅选择以及家庭、教师、学校差异——这些因素既可能影响学生成绩，也可能关系到教室的制度结构。因此该论文将使用学校间分轨教育结构institutional structure of between-school tracking和学生表现情况student performance的宏观变化macro variation来研究分轨教育的影响。由于不同国家在其他方面也有一定差异，因此采用DID模型进行分析。通过比较实行分轨教育以及未实行分轨教育的国家的两类学生（分轨前vs分轨后）的表现水平及分布情况，并以各国家早期的教学结果作为对照。</p>
+<p><strong>Cross-Country Identification</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://gemliu.github.io/post-images/1625648382824.png" alt="" loading="lazy"></figure>
+<p><strong>School Performance Data</strong><br>
+以1995年-2003年以来参加国际测试的学生群体为研究对象，将小学后期及中学时期的国际学生测试成绩相比较。应用6种不同测试（Secondary-school: PISA Reading, TIMSS Math, TIMSS Science; Primary-school: PIRLS Reading, TIMSS Math, TIMSS Science），产出18-26个国家参加8对国际测试eight pairs of international tests的情况。</p>
+<p><img src="https://gemliu.github.io/post-images/1625654884977.png" alt="" loading="lazy"><br>
+<img src="https://gemliu.github.io/post-images/1625669277553.png" alt="" loading="lazy"></p>
+<ul>
+<li>2003年版本的PISA是最新的国际测试，主要测试15岁学生的阅读、数学和科学，重点测试项目在现实生活中的应用。可以对标2001年开始进行的针对四年级学生的PIRLS阅读测试。<em>PISA  2003 for 15-year-old &amp; PIRLS 2001 for 4th-grade, 18 countries was participated (reading)</em></li>
+<li>首次PISA测试在2000年就在大多数国家进行，少部分国家在2002年才参与，主要测试15岁学生的阅读、数学和科学。 <em>PISA 2000/02 for 15-year-old &amp; PIRLS 2001 for 4th-grade, 20 countries participated (reading)</em></li>
+<li>TIMSS测试1995年开始进行，同时适用于测试4年级以及8年级学生的数学和科学。<em>TIMSS 1995 for 8th-grade &amp; TIMSS 1995 for 4th-grade, 26 countries participated (math &amp; science)</em></li>
+<li>2003年，小学版的TIMSS测试发布，可对标同年中学版的TIMSS测试。<em>TIMSS 2003 for 8th-grade &amp; TIMSS 2003 for 4th-grade ,25 countries participated (math &amp; science)</em></li>
+<li>在一段时间内跟踪特定的学生群体测试结果：<em>TIMSS 1999 for 8th-grade &amp; TIMSS 1995 for 4th-grade. 18 countries participated (math &amp; science)</em></li>
+</ul>
+<p><strong>Tracking and Inequality</strong></p>
+<ul>
+<li>Relative inequality：除Slovak Republic外，其他设有分轨教育的国家在教育不平等性均有增加；除Sweden和Latvia外，其他国家没有分轨教育的国家在教育不平等性上均出现了下降。</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://gemliu.github.io/post-images/1625729538718.png" alt="" loading="lazy"></figure>
+<ul>
+<li>在18个国家中，小学和中学间不平等性加剧现象最明显的前4个国家都是早期实行分轨教育的国家：Germany 0.71，Greece 0.30，Czech Republic 0.25，Italy 0.22；而下降现象幅度最大的6个国家都是后来实行分轨教育的国家，即在PISA测试出来前不实行分轨教育：Turkey -0.63, New Zealand -0.50, Canada -0.32, United States -0.27, Norway -0.14, Hong Kong -0.13。</li>
+</ul>
+<p><img src="https://gemliu.github.io/post-images/1625668895478.png" alt="" loading="lazy"><br>
+<img src="https://gemliu.github.io/post-images/1625669369667.png" alt="" loading="lazy"></p>
+<ul>
+<li>回归分析扩展到考虑不同的不平等措施different measures of inequality：每个国家内测试分数的标准偏差；75th percentile score的学生与25th percentile score学生的成绩差距；95th percentile score的学生和5th percentile score的学生之间的考试成绩差异。并将刚刚达到分轨年龄的15岁学生的平均表现进行对比</li>
+<li>在一个简单的双变量分析中，三个不平等措施中没有一个与分轨教育有统计学上的显著相关关系，双变量估计可能因参与国在不平等性上的异质性而产生偏差。因此，列(2)、(4)和(6)展示的对三种针对早期分组的不平等措施的影响的DID估计，证明在任何国家实行分轨教育前，教育不平等已经在小学晚期出现了。在小学已经存在严重不平等的国家，在中学也往往存在严重的不平等。而世界各地的学校都倾向于减少小学阶段的不平等现象。</li>
+<li>在三项不平等措施中，2003年的PISA中学测试，那些在学生未满15岁时就实行分轨教育的国家的教育不平等性尤为明显。早期实行分轨教育的国家的中学考试成绩全国标准差比未实行分轨教育的国家大约25%。<em>minimum national standard deviation of 3.5 (Hong Kong and the Netherlands) VS maximum national standard deviation of 4.5 (Germany)</em></li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://gemliu.github.io/post-images/1625729473881.png" alt="" loading="lazy"></figure>
+<p>简单的双变量估计不能揭示这种模式的原因：小学教育不平等程度最高的五个国家（New Zealand，Turkey，United States，Norway，Iceland）都没有对学生进行早期分轨教育。</p>
+<figure data-type="image" tabindex="4"><img src="https://gemliu.github.io/post-images/1625672429129.jpg" alt="" loading="lazy"></figure>
+<p>11-13列的结果不显著说明中学的不平等与小学的不平等没有显著的相关性（Table 3）</p>
+<p>使用线性变量的结果与使用分轨教育存在性的结果大体一致，主要影响仅仅来自于早期分轨教育是否存在，而分轨教育发生的时间并没有可检测的线性模式。添加进一步控制变量（如：人均国内生产总值和 / 平均每个学生成长到15岁一个国家教育支出数额），分轨教育带来的影响基本没有变化（Table 2）</p>
+<p><strong>Tracking and Mean Performance</strong><br>
+这种效果是通过改善成绩表现最差的人还是通过抑制成绩表现最好的人来实现的？即成绩表现收敛performance converge是在较低还是在较高的级别？</p>
+<p>先采用DID估计分轨教育对一个国家学生的平均成绩表现水平的影响，再估计对于不同排名的学生成绩影响。</p>
+<figure data-type="image" tabindex="5"><img src="https://gemliu.github.io/post-images/1625674739226.jpg" alt="" loading="lazy"></figure>
+<p>一个明显的趋势：那些在小学阶段学生平均成绩较好的国家在中学也表现较好。然而，早期分轨教育的影响在不同的科目和测试中是不一致的。早期分轨教育对于阅读以及数学测试的表现影响不明显，然而，早期分轨教育对于科学测试具有积极影响</p>
+<figure data-type="image" tabindex="6"><img src="https://gemliu.github.io/post-images/1625674780731.png" alt="" loading="lazy"></figure>
+<p>为了提高估计效率，采用seemingly unrelated regressions(SUR)来估计这两个方程。附录表A3的结果显示，在TIMSS 2003科学测试中，早期分轨教育对教育不平等的影响的显著性水平没有任何实质性的变化。</p>
+<p><strong>Who Gains, Who Loses?</strong><br>
+在成绩分布中，早期分轨教育的损失（或收益）在哪里？<br>
+采用DID评估早期分轨教育对成绩分布中不同得分（5th percentile score ，25th percentile score，75th percentile score，95th percentile score）的学生的影响（尽管结果都不具备统计学意义上的显著性）*<em>The 95th percentile score is the score below which 90 percent of students scored</em></p>
+<p><img src="https://gemliu.github.io/post-images/1625675643788.jpg" alt="" loading="lazy"><br>
+<img src="https://gemliu.github.io/post-images/1625729206167.png" alt="" loading="lazy"></p>
+<p>尽管早期分轨教育对四种排位的成绩影响都不具备统计学意义，但lower percentile学生比upper percentile的学生在早期分轨教育对成绩影响方面失去地更多，即成绩较差的学生比成绩较好的学生更容易受到早期分轨教育的影响。在任何情况下，都不能有一些学生以牺牲别人的利益为代价。净影响来自于对不同排名的学生成绩影响。</p>
+<p><strong>结论</strong><br>
+早期分轨教育增加了成就的不平等，而且几乎没有证据表明教学效率的提高与这种不平等的增加有关。<br>
+建议：增加不平等的一个途径是强化家庭背景的影响=如果早期学习成绩的不平等与家庭背景的差异有关，那么许多分轨教育安排将与家庭背景直接相关；除了对早期成绩水平的影响外，家庭背景是能力分轨的驱动力。可以利用国际测试的微观数据来调查家庭背景对教育不平等的影响。<br>
+未来研究：探索在多大程度上允许能力跨轨流动以减少分轨教育的负面影响。</p>
+<p><strong>Reference</strong><br>
+[1] Hanushek, E. A., &amp; Wößmann, L. (2006). Does educational tracking affect performance and inequality. The Economic Journal, 116(510)(February), C63–C76.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【学习笔记】关于双重差分法（DID）]]></title>
+        <id>https://gemliu.github.io/difference-in-difference-model/</id>
+        <link href="https://gemliu.github.io/difference-in-difference-model/">
+        </link>
+        <updated>2021-07-22T12:05:29.000Z</updated>
+        <content type="html"><![CDATA[<p>估计政策效应常用的方法有：工具变量法、断点回归、倾向得分匹配法、<strong>双重差分法</strong>、合成控制法等</p>
+<p><strong>双重差分法 DID（Difference-in-Difference）</strong></p>
+<p>估计处理效应中应用最广泛的计量方法，1855年霍乱流行时期由医学家John Snow提出，1915年由Obenauer以及von der Nienburg在研究最小工资法的影响效应时引入经济学的。双重差分适用于估计有多个被处理的对象的处理组的处理效应（treatment effect）。<em>①比较实际观测到的数据（处理组/受处理的数据）&amp;反事实数据（假设未受处理的数据）之间的差异；②比较处理组前后变化与控制组（各方面与处理组相似、但未受处理的控制组）的前后变化之差</em></p>
+<ul>
+<li>
+<p>优势：<br>
+（1）可以很大程度上避免内生性问题的困扰：政策相对于微观经济主体而言一般是外生的，因而不存在逆向因果问题。此外，使用固定效应估计一定程度上也缓解了遗漏变量偏误问题。<br>
+（2）传统方法下评估政策效应，主要是通过设置一个政策发生与否的虚拟变量然后进行回归，相较而言，双重差分法的模型设置更加科学，能更加准确地估计出政策效应。<br>
+（3）双重差分法的原理和模型设置很简单，容易理解和运用</p>
+</li>
+<li>
+<p>关键条件：<br>
+（1）必须存在一个具有试点性质的政策冲击，不能是“一刀切”类型，即存在受政策影响的处理组和不受政策影响的控制组，那种一次性全铺开的政策并不适用于DID分析<br>
+（2）必须具有一个相应的至少两年（政策实施前后各一年）的面板数据集</p>
+</li>
+<li>
+<p>模型前提：<br>
+（1）平行趋势（CT）假设：处理组和对照组有共同趋势，在政策干预之前，处理组和控制组的结果效应的趋势应该是一样的。（检验发现满足共同趋势，则直接采用DID；若不满足，则需要使用基于倾向得分匹配法的双重差分法 (PSM-DID)，在总的控制组中选择与处理组具有相同或相似倾向得分值的样本作为处理组的实际使用的控制组，构造出一个与处理组具有共同趋势的控制组）<br>
+（2）SUTVA条件：政策干预只影响处理组，不会对控制组产生交互影响，或者政策干预不会产生外溢效应；<br>
+（3）线性形式条件：潜在结果变量同处理变量和时间变量满足线性条件。</p>
+</li>
+</ul>
+<p><strong>一、传统DID模型——具有相同政策时点的标准倍分法 (Standard DID) 模型&amp;与ESA方法结合思路</strong></p>
+<p><em>一般针对政策实施时点为同一个时期，且接受干预的状态将一直持续下去，否则交互项设置将会严重违背平行趋势的假设，从而导致交互项的估计系数有偏。</em></p>
+<ul>
+<li>
+<p>传统DID模型=双向固定效应模型+处理组虚拟变量&amp;处理期虚拟变量的交乘项<br>
+<img src="https://gemliu.github.io/post-images/1627188379641.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>模拟数据的生成<br>
+<img src="https://gemliu.github.io/post-images/1627304822978.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<p><strong>1）政策效果不随时间而变的 Standard DID 的模拟</strong></p>
+<p><img src="https://gemliu.github.io/post-images/1627215631435.png" alt="" loading="lazy"><br>
+<img src="https://gemliu.github.io/post-images/1627268360181.png" alt="" loading="lazy"></p>
+<p><strong>2） 政策效果随时间而变的 Standard DID 的模拟</strong></p>
+<p><img src="https://gemliu.github.io/post-images/1627269582024.png" alt="" loading="lazy"><br>
+<img src="https://gemliu.github.io/post-images/1627269590587.png" alt="" loading="lazy"></p>
+<ul>
+<li>Standard DID 和 Event Study Approach 的结合：政策的动态效果(Dynamic Effects) /灵活的 DID （Flexible DID Estimates）</li>
+</ul>
+<p><em>政策效果随时间变化和不随时间变化两种情况下，如何与时间研究法(Event Study Approach)结合</em></p>
+<p>DID 应用 ESA 方法的两个目的：①可利用回归方法对双重差分法中最重要的平行趋势假设进行检验，与图示法相比，好处在于可以控制协变量的影响，方程形式也更加灵活；②可更加清楚地得到政策效果在时间维度上地变化。</p>
+<p><strong>1）灵活的 DID ：政策效果不随时间发生变化</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://gemliu.github.io/post-images/1627277432349.png" alt="" loading="lazy"></figure>
+<p><strong>2）灵活的 DID ：政策效果随时间发生变化</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://gemliu.github.io/post-images/1627277672574.png" alt="" loading="lazy"></figure>
+<p><strong>稳定性检验：以 Standard DID 为例</strong></p>
+<p>① Standard DID 可以认为是一种一直有控制组个体的 DID 模型，从相对时间值这个角度来说，与尽Time-varying DID 模型相通；</p>
+<p>② Standard DID 的动态政策效果已经可以通过成熟的办法来得到，有了明确的标准，则可以对处理是否合适进行判断。</p>
+<figure data-type="image" tabindex="3"><img src="https://gemliu.github.io/post-images/1627302895045.png" alt="" loading="lazy"></figure>
+<ul>
+<li>小结<br>
+介绍政策效果不随时间而变和政策效果随时间而变的 DID 模型的模拟，结合ESA（Event Study Approach）对 DID 最重要的平行趋势假设进行了检验，另外利用 coefplot 命令对 DID 方法所估计的政策动态效果进行了图形化展示。</li>
+</ul>
+<p><strong>二、多期DID模型——政策时点存在差异且实验组个体又不断变动的时变倍分法 (Time-varying DID) 模型&amp;与ESA 方法结合思路（不存在一直处于控制组的个体）</strong></p>
+<p><em>由于现实世界中很多的政策试点地区和时间都不尽相同，而且也容易发生个体是否接受政策干预的状态在不停地发生改变，因此，使用渐进 DID 方法（Time-varying DID）来使得 DID 模型更加具有一般性。</em></p>
+<ul>
+<li>多期DID模型</li>
+</ul>
+<figure data-type="image" tabindex="4"><img src="https://gemliu.github.io/post-images/1627279560921.png" alt="" loading="lazy"></figure>
+<p><strong>1）Time-varyig DID Simulation: 政策效果不随时间发生变化</strong></p>
+<ul>
+<li>
+<p>模拟数据生成<br>
+<img src="https://gemliu.github.io/post-images/1627281115354.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>多种估计结果的呈现<br>
+<img src="https://gemliu.github.io/post-images/1627281744246.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>ESA 方法应用 (Event Study Approach)<br>
+由于该方法对于所有个体没有一个统一的政策时点，且进入实验组的个体在不断变化，因此传统DID操作流程无法应用到 Time-varying DID 方法上。</p>
+</li>
+</ul>
+<p>但是对于 Time-varying DID 来说，即使没有了统一的政策时点，由于【每一个个体进入实验组的时点是确定的】，所以可以通过【当前年份与该个体的政策时点相比较】。</p>
+<p>换言之，Standard DID 结合 ESA 方法所生成的时期虚拟变量是一种绝对的时间尺度，即观测政策在某个样本时期的效果，所需要的相对时期，即观测政策效果在个体接受处理的前 N 期和后 N 期的变化。</p>
+<figure data-type="image" tabindex="5"><img src="https://gemliu.github.io/post-images/1627304935487.png" alt="" loading="lazy"></figure>
+<p><strong>2）Time-varyig DID Simulation: 政策效果随时间发生变化</strong></p>
+<ul>
+<li>
+<p>模拟数据生成<br>
+<img src="https://gemliu.github.io/post-images/1627288108778.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>多种估计结果的呈现<br>
+<img src="https://gemliu.github.io/post-images/1627288785404.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>ESA方法的应用<br>
+<img src="https://gemliu.github.io/post-images/1627289665774.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>小结<br>
+通过数据模拟对多期DID方法多种形式的估计，对多期DID方法难以直观上理解的平行趋势检验做了分析和展示，结合 ESA 方法图示化了政策效果的动态性。</p>
+</li>
+</ul>
+<p><em>Standard DID 结合 ESA 方法所生成的时期虚拟变量是一种绝对的时间尺度，而 Time-varying DID 利用 ESA 方法所需要的是相对的时期</em></p>
+<p>一般认为 DID 方法的识别假设为结果变量的差分形式独立于政策干预，即在差分意义上满足随机实验的要求。因此，从分组的角度来说，DID 方法可以理解为【差分意义上的匹配方法】，因此在平行趋势检验的时候需要注意结果变量水平值的形式，比如取不取Log，可能会导致平行趋势检验结果的大不同。</p>
+<p>【DID 方法和 ESA 方法的结合】利用【回归形式检验平行趋势】的方法，可以从另一个角度理解其识别假设或者说平行趋势假设：实验组和控制组的固有差异在样本期间的每一个时期内没有发生结构性的变化，政策干预也不会影响到组间固有差异。</p>
+<p>从 ESA 方法角度去理解即，若原来水平值满足平行趋势假设，那么结果变量差分值就满足 ESA 方法所得到时间窗口期前的估计系数应该都不显著异于零。当然，即使利用一定的方法验证了结果变量具有平行趋势，比如在政策实施前实验组和控制组的变化趋势相同或者 ESA 方法的回归系数接近 0 ，依然无法保证政策实施后的平行趋势依然满足，因为本质上平行趋势假设依然是不可检测的。</p>
+<p><strong>三、多期DID模型——时变倍分法 (Time-varying DID) 模型&amp;与ESA 方法结合思路（存在一直处于控制组的个体）</strong></p>
+<p><strong>1）由于政策效果是否随时间变化不会改变我们的分析，因此仅分析【政策效果随时间发生变化的情况】</strong></p>
+<ul>
+<li>
+<p>模拟数据的生成<br>
+<img src="https://gemliu.github.io/post-images/1627291484031.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>多种估计结果的展示<br>
+<img src="https://gemliu.github.io/post-images/1627292104702.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>ESA 方法应用<br>
+在设定相对时间值的时候，如果存在一直在控制组的个体，一直没有接受干预，那么就不存在有政策前 N 期和政策后 N 期。因此它的赋值将成为问题。如果将这些个体的相对时间值设定为缺失值，则会导致这些个体的相对时间值的虚拟变量也会是缺失值。这会使得 ESA 方程可用的个体仅剩下了样本中的实验组个体，从而无法实现估计出每年度的政策效果进而对平行趋势进行检验的目的。可行的方法是【在生成每一个个体的相对时间值的虚拟变量后】，【手动将虚拟变量中的缺失值赋值为0】。从而在回归中利用上这些个体。并且将这些个体的缺失值赋值为0还可以表示它们是【控制组个体】。<br>
+<img src="https://gemliu.github.io/post-images/1627301311157.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<p><strong>参考资料:</strong><br>
+https://zhuanlan.zhihu.com/p/48952513<br>
+https://www.lianxh.cn/news/73a938e236d82.html<br>
+https://www.lianxh.cn/news/c72c6fe03a580.html<br>
+https://www.lianxh.cn/news/49014f33b87f9.html</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【读书笔记】《無愛紀》黃碧雲（小說評論）]]></title>
+        <id>https://gemliu.github.io/lesslesswu-ai-ji-greatergreater-huang-bi-yun-xiao-shuo-ping-lun/</id>
+        <link href="https://gemliu.github.io/lesslesswu-ai-ji-greatergreater-huang-bi-yun-xiao-shuo-ping-lun/">
+        </link>
+        <updated>2021-03-08T06:59:12.000Z</updated>
+        <content type="html"><![CDATA[<p>書籍《無愛紀》一共收錄三部小說《無愛紀》、《桃花紅》、《七月流火》，本篇分享的是同名小說《無愛紀》</p>
+<p>「我在漸暗下來的房子想著你。 但你已經不在了。 我還愛你麽？」<br>
+「在這難以安身的年代，豈敢奢言愛。」<br>
+「這件事情，對你來說與對我來說，是不一樣吧，對我來說是那麼重，對你來說，或許很輕吧。」</p>
+<p>這是主人公楚楚的父親遊憂去世後留下的信件的內容。信的作者是父親的秘密愛慕者絳綠。</p>
+<p>一封封情感炙熱卻滿載哀傷的信件，串聯起了整部小說，也顛覆了一般對愛情的寄望。</p>
+<p><strong>所謂愛情，並無所謂地久天長，僅這一封封穿越漫天戰火仍固執等待回信的信件就是對愛情最大的嘲諷。</strong></p>
+<p>隨著一封封信件的開啟，楚楚的人生故事也慢慢地在我們的面前鋪陳開來：</p>
+<p>父親生前有著一個情人，而母親婚前也有其他男人；<br>
+自己雖為母親所生，卻非父親親生；<br>
+丈夫婚內出軌，女兒則因男友移情別戀而選擇自殺；<br>
+而女兒男友移情別戀的對象不是別人，正是自己。</p>
+<p><strong>正所謂 「夫妻不是夫妻，父母女不是父母女，她自己也不是自己」</strong></p>
+<p>面對這樣一系列的事件，所有人的選擇都是沈默、無言：</p>
+<p>面對深情的情人，父親遊憂無力解脫，只能選擇靜默受之；</p>
+<p>「我一直沒有回她的信，希望她漸漸將我忘記。 」</p>
+<p>面對出軌的丈夫，楚楚無力改變，只能選擇繼續生活；</p>
+<p>「不是不愛更無所謂厭恨，只是可有可無並且已經夠了。」</p>
+<p>而情感熱烈的女兒，面對男友，也不過是將其作為臨時演員，她至始至終愛的只不過是自己的熱烈。</p>
+<p>「她說她愛但她愛的不是我；她只是愛她的愛；她的激烈；她的自毀；我不過是一個臨時演員在陪她表演。」</p>
+<p><strong>因此，無愛可以是本就無愛，無力去愛，更可以是無所謂愛。</strong></p>
+<p>正如顏純鈞先生所評：</p>
+<p>「好像人生本來就該是這樣，沒有什麽可大驚小怪的……不論是好是壞，反正就是這樣，不期然地它就這麽來了。既來之則安之你總要承受下來……用的是這樣一種漠然和茫然的筆調，就好像整個世界已經地老天荒，失去了價值判斷也不需要價值判斷。」</p>
+<p>及《桃花紅》及《七月流火》所提：</p>
+<p>「無愛紀無所缺失，無所希冀，幾乎無所憶。模棱兩可，什麽都可以」 ——《桃花紅》</p>
+<p>「無愛紀無杜鵑啼，無相思泣血，日復一日，過得飛快」 ——《七月流火》</p>
+<p>好像人生本就該這樣，既來之則安之，總要承受。<br>
+所謂價值判斷，失去了，也用不著，一切都是可有可無罷了。<br>
+人們從不掙紮，只是活著。</p>
+<p>無疑這種對恨的消解的無力感比愛的消解來得更具震懾力。</p>
+<p><strong>無力，無言之後便成就了無愛。</strong></p>
+<p>王德威先生曾評黃碧雲的文字 「溫柔且暴烈」，回看黃碧雲的早期小說《失城》、《嘔吐》、《七宗罪》、《雙城月》等，無不是暴烈占據了上風，而《無愛紀》竟是書寫綿綿的普通生活。</p>
+<p>但正如王德威先生所評暴烈以溫柔為前提，而女性最刻骨銘心的莫過於日常生活的暴力：</p>
+<p>「她的暴烈必須以她的溫柔作為前提」<br>
+「暴烈的溫柔，一種置之死地而後生的欲望，一種生命不可愛而愛的堅持」<br>
+「外在加諸的政治暴力當然是她念茲在茲的史實，但她更有意點出女性最刻骨銘心的是日常生活的暴力」</p>
+<p>無愛紀中的暴烈是生活、時間、歷史：</p>
+<p>生活是不完全的，就連破裂也破地糾結，藕斷絲連；<br>
+沒有人敵得過時間的流逝，最終的結局不過都是化為灰燼；<br>
+雖然我們在歷史中存在過，但歷史與微小的我們無關。</p>
+<p>但是與生活、時間的暴烈相對，角色是溫柔的，有愛的：</p>
+<p>無愛的原因是因為曾經有愛，本以為愛情是出口，卻不想只不過是從一個火坑跳進了另一個火坑。</p>
+<p>「沒有愛，因為我也曾是個精細的女子，也曾溫柔情動，也曾走過荊棘途路而且欣然痊愈，也想過犧牲、忠誠、以他人之好為好，也有求不得，也傷於愛別離。我時常尋求親密，就時常孤獨遠離愛，憤怒和驕傲時常侵襲我，狂暴又常追隨。當我低頭見到自己的影子，原來和我共舞的沒有其他人」</p>
+<p>而無愛也並非完全無愛，無愛之人不會永久地陷在生活的夾縫中無以為愛，她們依舊有其他可愛之人，依舊有被愛的可能，例如楚楚母親對楚楚無限的愛的包容，楚楚在女兒前男友莫如一身上感受到的愛的救贖。</p>
+<p>「到甚麽都吃完了，連茶都喝完了晚雪為她添，楚楚說不要了喝多了會睡不好。豆莢成熟就得爆破，嬰孩落地，種子就渴望泥土……楚楚說我沒帶衣服來換，卻起身將自己的絲襪脫掉，隨手扔到洗衣機裏面去，就像從前她還做女兒的時候。」</p>
+<p>「如一也不驚動，讓她靜下來的時候，捧著她吻她的臉。楚楚感覺猶如聖女瑪莉亞，童貞女因信而生，生希望，生愛。而親密只因為互相憐憫；憐憫我們的殘缺；我們的不堪；我們永恒的飛墜。」</p>
+<p>到故事的結尾，在楚楚送別和情人移民到加拿大的丈夫後，坐上那恰如自己人生的升降電梯，在電梯門再開啟之時，心中所念，還是如一。</p>
+<p>「這時她的手機響起，在密封的電梯裏面人擠著人，電梯緩慢上升，叮著一聲電梯門打開她就聽到手機的另一頭，她想象的聲音，是如一。」</p>
+<p>小說中另一個容易忽視卻又值得註意的角度正是前面提到的歷史，小說中只有幾處提到了歷史背景，但也只是用以提供故事敘述的契機。</p>
+<p>其中「回歸」這一主題在《失城》中，是城市的夢魘和終結，但在《無愛紀》中，著楚楚的話來說則是「沒什麽感覺」，稱自己「只是生活在很小的事情裏」。</p>
+<p>可見對生活微小的關註，讓回歸不再成為一件什麽驚天動地的大事，不過是微小中的微小罷了。</p>
+<p>《無愛紀》告訴我們：</p>
+<p>「最後令這個城市的離開的，不是人們想象和渲染的政治迫害，而不過是城市的人自己製造出來的骯臟、嘈雜、擠逼、貪婪和單調。」</p>
+<p>令人們離開這座城的不過是回歸後的「沈默、暗啞與微小」罷了。</p>
+<p><strong>個人與城市身份的解構下，城市的命運也不過是如何渡余生，其余一切都也是空無，而後殖民則變成了「無愛紀」。</strong></p>
+<p>「而无爱纪的最终表征是什么事都没有发生」——王德威《香港情与爱-回归后小说叙事与欲望》</p>
+<p>小說很短，不忍卒讀，卻一讀再讀，這大概就是黃碧雲暴烈且溫柔的文字魅力所在。</p>
+<p>但同時也存在著一定的局限性：</p>
+<p>溫柔與暴力的對比能否再明顯一些？對比不足讓日常相關的敘述顯得有些冗雜<br>
+經歷愛與無愛之間的迷茫與掙紮過後，女性真正的出口是什麽？<br>
+歷史事件只提供了故事敘述的契機，時空的延展如何進入人物靈魂？</p>
+<p>篇末以小說中的一句話做結尾：</p>
+<p>「我在玩一場必輸的賭局，賠上一生的情動。」</p>
+<p>事情從來都是不公平的，一帆風順的愛情不存在的，就算表面溫柔平和，內地裏恐怕早已各自背負著自己的秘密，暗地洶湧。</p>
+<p>愛情是一個試錯的過程，不以結婚為終結。就算錯愛、錯付、傷感、無力、迷茫，但生活的溫柔與暴烈總會帶我們慢慢認清「我們」的身份。</p>
+]]></content>
+    </entry>
+</feed>
